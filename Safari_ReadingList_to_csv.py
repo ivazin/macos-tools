@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+"""
+This script exports a list of all the URLs in Safari Reading List, and
+writes them all to a csv file.
+
+Requires Python 3.
+
+Thanks https://alexwlchan.net/2015/11/export-urls-from-safari-reading-list/ for idea.
+"""
+
 import os
 import plistlib
 import csv
